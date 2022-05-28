@@ -1,0 +1,42 @@
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* body{
+  font-size: 62.5%;
+} */
+
+.App {
+  text-align: center;
+}
+
+.Navbar{
+display: flex;
+justify-content: space-between;
+height: 60px;
+background-color: blue;
+padding: 0px 30px;
+}.Navbar span{
+  color: red;
+  font-size: 25px;
+}
+.logo{
+  padding: 10px 0px;
+  font-size: 23px;
+  color: black;
+  cursor: pointer;
+}
+.nav ul{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav ul li a{
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #fff;
+}
+.active{
+  color: red;
+}
